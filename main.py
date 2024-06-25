@@ -1,5 +1,11 @@
-from star_rail_parser.trailblazer import Trailblazer
+from star_rail_parser import Trailblazer
 
 obj = Trailblazer('807842788')
-print(obj.getBasicData())
-print(obj.getOtherData())
+
+
+charList = obj.getCharacters()
+print(charList[1].relics[4].sub_stats[3].__dict__)
+
+
+
+
