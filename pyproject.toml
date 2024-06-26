@@ -1,0 +1,36 @@
+#pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "star-rail-parser"
+version = "0.1.0"
+description = "A simple Python package for using data from the official mihomo API"
+readme = "README.md"
+authors = [{ name = "Vighnesh Mandavkar", email = "vighnesh_mandavkar@outlook.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+dependencies = [
+    "requests >= 2.32.3",
+
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/infernodragon456/star-rail-parser"
+
+[testpypi]
+username = '__token__'
+password = 'pypi-AgENdGVzdC5weXBpLm9yZwIkMWZlNzZjNTYtODI0ZS00YTlhLTg4MmQtMmZjMDI5MDY1NGI0AAIqWzMsIjI1OTg5ZTc4LTc1MzYtNDgzNi04OWJiLTA4NWM3YzU4MGVhZCJdAAAGID7hriKAv4tXHeoBIkXyreEHDrG0Rf5b4dLRVjF0fpDJ'
+
+[pypi]
+username = '__token__'
+password = 'pypi-AgEIcHlwaS5vcmcCJDNiMDdlZjYzLWE5OGYtNGU3OS04NjMzLTAwOThkMzcxN2U2YgACKlszLCIxMDU2Y2I3MC0yMTIyLTRjM2QtYThkOS1hYWYyY2IyZDFmYmYiXQAABiCo66bxqZW4d4PsYFDm57-ixjIdxsLWtvjw5Zlm366Vkg'

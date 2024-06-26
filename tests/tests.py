@@ -1,6 +1,6 @@
 import unittest
 import timeit
-from star_rail_parser import RelicStat
+from star_rail_parser import Stat
 
 
 class MyTestCase(unittest.TestCase):
@@ -9,7 +9,7 @@ class MyTestCase(unittest.TestCase):
         # self.assertEqual(True, False)  # add assertion here
 
 
-relic = RelicStat('ATK', 100, False, 1, 10)
+relic = Stat('ATK', 100, False, 1, 10)
 
 
 # if __name__ == '__main__':
@@ -32,11 +32,11 @@ stats_dict = {}
 
 # List of objects (assuming they're instances of RelicStat)
 relic_list = [
-    RelicStat('HP', 100, False),
-    RelicStat('ATK', 50, False),
-    RelicStat('DEF', 75, False),
-    RelicStat('HP', 50, False),  # Another HP stat
-    RelicStat('CRIT', 10, True)  # A new stat type
+    Stat('HP', 100, False),
+    Stat('ATK', 50, False),
+    Stat('DEF', 75, False),
+    Stat('HP', 50, False),  # Another HP stat
+    Stat('CRIT', 10, True)  # A new stat type
 ]
 
 # Iterate over the list of objects
