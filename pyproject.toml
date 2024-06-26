@@ -29,8 +29,8 @@ Homepage = "https://github.com/infernodragon456/star-rail-parser"
 
 [testpypi]
 username = '__token__'
-password = 'pypi-AgENdGVzdC5weXBpLm9yZwIkMWZlNzZjNTYtODI0ZS00YTlhLTg4MmQtMmZjMDI5MDY1NGI0AAIqWzMsIjI1OTg5ZTc4LTc1MzYtNDgzNi04OWJiLTA4NWM3YzU4MGVhZCJdAAAGID7hriKAv4tXHeoBIkXyreEHDrG0Rf5b4dLRVjF0fpDJ'
+password = ''
 
 [pypi]
 username = '__token__'
-password = 'pypi-AgEIcHlwaS5vcmcCJDNiMDdlZjYzLWE5OGYtNGU3OS04NjMzLTAwOThkMzcxN2U2YgACKlszLCIxMDU2Y2I3MC0yMTIyLTRjM2QtYThkOS1hYWYyY2IyZDFmYmYiXQAABiCo66bxqZW4d4PsYFDm57-ixjIdxsLWtvjw5Zlm366Vkg'
+password = ''
